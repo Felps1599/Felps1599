@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2? família=Poppins:ital@1&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+
+}
+body{
+    background-image: url(../Img/singup2.jpg);
+    background-size: cover; /*backghround-size serve pra tirar*/
+}
+
+#formulario{
+     width: 400px;
+     height: 250px;
+     text-align: center;
+     background-color: rgba(85, 82, 82, 0.356);
+     backdrop-filter: blur(4px); /*Efeito pra borrar a tela*/
+     margin: auto;
+     padding-top: 20px;
+     margin-top: 200px;
+     
+     
+
+}
+label{
+    color: rgb(236, 236, 236);
+    font-size: 20;
+}
+input{
+    width: 70%;
+    height: 25px;
+    font-size: 20px;
+    margin: 5px
+}
+button{
+    color:white;
+    background-color: grey;
+    border: none;
+    width: 100px;
+    height: 22px;
+    font-size: 20px;
+    margin-top: 50px;
+    text-decoration: none;
+}
+button:hover{
+    background-color: rgba(85, 82, 82, 0.356);
+}
+a{
+    text-decoration: none;
+    color: white;
+}

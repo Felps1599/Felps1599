@@ -1,0 +1,103 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{ /* Quando o Boody nao der pra mexer na margin or padding, usar  o (*) */
+     margin: 0;
+     padding: 0;
+     font-family: 'Roboto', sans-serif;
+}
+.menu ul li a{
+     color: white;
+     font-size: 20px;
+     text-decoration: none;
+     padding: 20px;   /* (Padding) Serve pra da spacing entre as letter*/
+     transition: background .3s;
+     
+
+}
+.menu ul li a:hover{
+     color: rgb(247, 241, 241);
+     background-color: rgba(23, 23, 24, 0.13);
+}
+.menu{
+     background-color: rgba(23, 23, 24, 0.13); /* (height: 50px; ) (HEIGHT) SERVE PRA AUMENTAR OU DIMINUIR LARGURA*/
+     width: 100%; /* (WIDTH) SERVE PRA AUMENTAR OU DIMINUIR LARGURA */
+     position: fixed; /* Serve pra fixar algo na tela */ 
+     padding: 20px;
+}
+li{
+     display: inline;   /*(INLINE)SERVE PRA DEIXA A BOX OR H1 UM DO LADO DO OUTRO! (inline-block)Voce pode escolher o padding (exp) tamanho e largura*/
+    }
+#conteudo{ 
+     width: 100%;
+     height: 130vh;
+     background-color: rgb(69, 120, 214);
+     display: flex; /*display flex torna o layout flexível*/
+     
+     
+     
+}
+.caixa {
+    height: 400px;
+    width: 400px;
+    background-color: rgb(58, 53, 53);
+    margin: auto; /* Margin:auto propriedade responsável por centralizar  elementos que tem display-block*/
+    border-radius: 15px; /* Propriedade responsável por arredondar a borda!*/
+    text-align: center;
+    
+  
+    
+}
+.img-um{
+     background-image: url('../Img/img1.jpg');
+     background-size: cover;
+     background-position-x: center;
+     
+}
+.img-dois{
+     background-image: url('../Img/img2.jpg'); /* image: url(serve pra  adicionar uma imagem de plano de fundos) e (../) serve pra voltar bastante usado na programação*/
+     background-size: cover;
+}
+.img-tres{
+     background-image: url('../Img/img3.jpg');
+     background-size: cover; /*  Size serve pra diminuir o zom da img!*/
+     background-position-x: left; /* background-position-x serve pra movimentar  a imagem  pra leaft or height, e (Y) serve pra altura*/
+     
+ }
+ .caixa-h2{
+    color: rgba(255, 255, 255, 0.56);
+    font-size: 37px;
+    background-color: rgba(00, 00, 00, 0.8);
+    margin-top: 180px;
+    
+    
+    
+
+ }
+ .Link{
+     text-decoration: none;
+     color: rgba(255, 255, 255, 0.56);
+     font-size: 20px;
+     display:block;
+     background-color: rgba(00, 00, 00, 0.8);
+     margin-top: 0px;
+     
+ }
+#port{
+      color: rgba(255, 255, 255, 0.56);
+      background-color:  rgb(58, 98, 173);
+      font-size: 25px;
+      text-align: center;
+      padding: 40px;
+}
+
+.img-tres:hover{
+     background-image: linear-gradient(rgba(000, 000, 000, 0.6 ), rgba(000, 000, 000, 0.6 )), url(../Img/img3.jpg);
+  }
+
+ .img-dois:hover{
+      background-image: linear-gradient(rgba(00, 00, 00, 0.6), rgba(00, 00, 00, 0.6)), url(../Img/img2.jpg)
+ }   
+ .img-um:hover{
+      background-image: linear-gradient(rgba(00, 00, 00, 0.6), rgba(00, 00, 00, 0.6)), url(../Img/img1.jpg);
+ }
